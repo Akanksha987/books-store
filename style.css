@@ -1,0 +1,76 @@
+/*removing present style*/
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+  /* box-sizing: border-box; */
+}
+/*styling the body */
+body {
+  font-family: "Montserrat";
+  padding-top: 2%;
+  overflow-x: hidden;
+}
+.flex {
+  display: flex;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.direction-row {
+  flex-direction: row;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.button {
+  height: 50px;
+  width: 150px;
+  border-radius: 4px;
+  background-color: bisque;
+  margin-top: 32px;
+  align-items: right;
+}
+/* .bg-green{
+    position:relative;
+    left: 70px;
+    top: 80px;
+    right:30px;
+    background-color: aqua;
+    
+    border-radius:100px 100px 100px 100px;
+    z-index: index -1;
+}
+.
+/* .bg-green > div {
+  width: 30px;
+  height: 20px;
+  margin: 10px;
+} */ 
+a {
+  text-decoration: none;
+  color: rgb(245, 158, 126);
+  padding: 1%;
+}
+.bg-green {
+   height:30%;
+  }
+  .bg-green>div{
+    height:40%;
+  }
+.space-around {
+  justify-content: space-around;
+}
+h2 {
+  padding: 5%;
+  text-align: center;
+  padding-top: 5%;
+}
